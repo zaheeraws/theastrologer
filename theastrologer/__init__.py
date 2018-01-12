@@ -95,7 +95,7 @@ class Horoscope(object):
         return {
             'date': date.strftime("%Y-%m-%d"),
             'sunsign': self.sunsign.capitalize(),
-            'horoscope': horoscope + "(c) Kelli Fox, The Astrologer, http://new.theastrologer.com",
+            'horoscope': horoscope,
             'meta': self._get_horoscope_meta(day),
             'credit': '(c) Kelli Fox, The Astrologer, http://new.theastrologer.com'
         }
